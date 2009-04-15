@@ -1,8 +1,3 @@
-Version 0.1.1
-2009-04-15
-Updated pluralize and singularize to always return lowercase characters
-Bug fix in the regexp (thanks to stassats)
-
 Version 0.1.0
 2009-04-15
 Initial public release
