@@ -97,7 +97,7 @@
         w)))
 
 (defun singularize (word)
-  (let ((w (string-downcase  word)))
+  (let ((w (string-downcase word)))
     (or (uncountable w)
         (irregular w (mapcar #'reverse *irregular*))
         (inflect w *singular*)
