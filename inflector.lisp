@@ -23,7 +23,7 @@
 (defvar *plural*
   '(("(quiz)$" . "\\1zes")
     ("^(ox)$" . "\\1en")
-    ("([ml])ouse$" . "\\1ice")
+    ("(m|l)ouse$" . "\\1ice")
     ("(matr|vert|ind)(?:ix|ex)$" . "\\1ices")
     ("(x|ch|ss|sh)$" . "\\1es")
     ("([^aeiouy]|qu)y$" . "\\1ies")
@@ -50,7 +50,7 @@
     ("(shoe)s$" . "\\1")
     ("(o)es$" . "\\1")
     ("(bus)es$" . "\\1")
-    ("([ml])ice$" . "\\1ouse")
+    ("(m|l)ice$" . "\\1ouse")
     ("(x|ch|ss|sh)es$" . "\\1")
     ("(m)ovies$" . "\\1ovie")
     ("(s)eries$" . "\\1eries")
