@@ -94,11 +94,11 @@
     (or (uncountable w)
         (irregular w *irregular*)
         (inflect w *plural*)
-        word)))
+        w)))
 
 (defun singularize (word)
   (let ((w (string-downcase  word)))
     (or (uncountable w)
         (irregular w (mapcar #'reverse *irregular*))
         (inflect w *singular*)
-        word)))
+        w)))
