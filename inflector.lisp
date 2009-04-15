@@ -50,7 +50,7 @@
     ("(shoe)s$" . "\\1")
     ("(o)es$" . "\\1")
     ("(bus)es$" . "\\1")
-    ("([m|l])ice$" . "\\1ouse")
+    ("([ml])ice$" . "\\1ouse")
     ("(x|ch|ss|sh)es$" . "\\1")
     ("(m)ovies$" . "\\1ovie")
     ("(s)eries$" . "\\1eries")
